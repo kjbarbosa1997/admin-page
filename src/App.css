@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.tasks{
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  grid-column-gap: 0px;
+ 
+}
+
+.tasksLeft {
+  grid-column: 1;
+}
+
+.tasksRight {
+  grid-column: 2;
+}
+
+.datePickerStart {
+  min-width: 400px;
+}
+
+.datePickerEnd {
+  min-width: 400px;
+}
+
+.serviceDropdown {
+  max-width: 400px;
+}
